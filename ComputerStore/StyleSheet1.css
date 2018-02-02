@@ -1,0 +1,134 @@
+﻿body {
+    color: #000;
+    font-family: Corbel, Arial, Helvetica, Verdana, sans-serif;
+    font-size: 16px;
+    background-image: url('Images/Backgournd Images/Backgroundimage.jpg');
+}
+
+#wrapper 
+   {
+    width: 80%;
+    margin: auto;
+    /*padding-bottom: 20px;*/
+    background-color: white;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+   }
+
+.navigation {
+    height: 45px;
+    background: repeating-radial-gradient(#08650d,#07ac0a,#0b5e83);
+    text-decoration-color: #000000;
+}
+
+.nav
+   {
+    display: block;
+    list-style: none;
+    text-align: center;
+   }
+
+.nav ul
+       {
+        display: none;
+        list-style: none;
+       }
+
+.nav li
+       {
+        display: inline-block;
+        text-transform: uppercase;
+        padding: 1px 30px 1px 30px;
+        border-left: 1px solid #FFFFFF;
+        color:#eb0000
+       }
+
+.nav a:link, .nav a :visited, .nav a:active
+       {
+        display: block;
+        color: blue;
+        text-decoration: none;
+       }
+
+    .nav a:hover {
+        background-color: #808080;
+    }
+
+#content {
+    /*padding: 20px;*/
+    min-height: 574px;
+    background: repeating-radial-gradient(#274d93, #ffffff);
+    background-repeat: repeat;
+    text-align: center;
+}   
+
+#map 
+   {
+    width: 47%;
+    height: 300px;
+    border: none;
+    padding-top:40px;
+    
+    margin-top:100px;
+   }
+
+#contact 
+   {
+    width: 52%;
+    height: 300px;
+    float:left;
+    margin-right:10px;
+    padding-bottom:40px;
+   }
+
+#footer {
+    width: 100%;
+    background: repeating-radial-gradient(#08650d,#07ac0a,#0b5e83);
+
+}
+
+#footer a {
+    color: blue;
+}
+#footer nav ul li {
+        display: inline-block;
+        text-transform: uppercase;
+        padding: 1px 30px 1px 30px;
+        border-left: 1px solid #FFFFFF;
+        font-size: 12px;
+    }
+    #footer nav {
+        display: block;
+        list-style: none;
+        text-align: center;
+    }
+
+#footer navigation {
+    height: 45px;
+    backface-visibility:visible;
+    text-decoration-color: white;
+}
+
+#footer nav a:hover {
+    background-color: #808080;
+}
+#footer nav a:link, .nav a :visited, .nav a:active {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+.registration {
+
+    text-align: center;
+    padding-bottom:50px;
+    margin-top:30px;
+
+}
+
+.loginform
+{
+    padding-right:20px;
+}
+
